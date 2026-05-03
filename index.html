@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity2</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+
+            background-image: url('background.jfif');
+            background-size: 100% 100%;   /* splits into 4 */
+            background-repeat: repeat;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.5);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        h3 {
+            color: #ff4d4d;
+            font-size: 30px;
+        }
+
+        ol, ul {
+            color: #ffffff;
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay">
+
+        <h3>Ordered List: Engines</h3>
+        <ol>
+            <li>Petrol</li>
+            <li>Diesel
+                <ul>
+                    <li>Inline</li>
+                    <li>V</li>
+                </ul>
+            </li>
+            <li>Electric</li>
+            <li>Hybrid</li>
+            <li>Hydrogen</li>
+        </ol>
+
+        <h3>Unordered List: Engine Types</h3>
+        <ul>
+            <li>Naturally Aspirated</li>
+            <li>Turbocharged</li>
+            <li>Supercharged</li>
+            <li>Rotary</li>
+            <li>Two-stroke</li>
+        </ul>
+
+    </div>
+</body>
+</html>
